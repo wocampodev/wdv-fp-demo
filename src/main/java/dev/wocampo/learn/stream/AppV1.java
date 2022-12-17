@@ -13,7 +13,7 @@ public class AppV1 {
     public static void main(String... args) {
         System.out.println(":: Start ::");
         AppV1 appV1 = new AppV1();
-        appV1.setQuantity(Integer.valueOf(args[0]));
+        appV1.setQuantity(Integer.parseInt(args.length > 0 ? args[0] : "1"));
         appV1.oldSort();
         appV1.lambdaSort();
 
