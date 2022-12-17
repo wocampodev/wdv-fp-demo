@@ -1,4 +1,4 @@
-package dev.wocampo.learn.fpdemo.stream;
+package dev.wocampo.learn.stream;
 
 import java.util.List;
 import java.util.stream.Collectors;

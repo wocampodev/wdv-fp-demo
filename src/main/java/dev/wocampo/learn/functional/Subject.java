@@ -1,4 +1,4 @@
-package dev.wocampo.learn.fpdemo.functional;
+package dev.wocampo.learn.functional;
 
 public class Subject implements MyFunctionalInterface {
     @Override

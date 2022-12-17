@@ -1,4 +1,4 @@
-package dev.wocampo.learn.fpdemo;
+package dev.wocampo.learn;
 
 import static org.junit.Assert.assertTrue;
 

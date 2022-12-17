@@ -1,4 +1,4 @@
-package dev.wocampo.learn.fpdemo.functional;
+package dev.wocampo.learn.functional;
 
 public class Pikachu {
     public String eat(String param) {

@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.wocampo.learn</groupId>
-    <artifactId>fp-demo</artifactId>
+    <artifactId>wdv-fp-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>fp-demo</name>
+    <name>wdv-fp-demo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,7 +34,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>dev.wocampo.learn.fpdemo.stream.AppV1</mainClass>
+                            <mainClass>dev.wocampo.learn.stream.AppV1</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
