@@ -10,11 +10,11 @@ public class AppBeta {
     }
 
     private static void printElements() {
-        var friends = List.of("Guillermo", "Anthony", "Liliana");
+        var friends = List.of("Guillermo", "Anthony", "Third");
         // friends.removeIf("Liliana"::equals); // Mutability error, side effect
         var realFriends = friends.stream() // stream
                 .peek(System.out::println)
-                .filter(s -> !"Liliana".equals(s)) // map
+                .filter(s -> !"Third".equals(s)) // map
                 .peek(System.out::println)
                 .map(String::toUpperCase) // map
                 .peek(System.out::println)
